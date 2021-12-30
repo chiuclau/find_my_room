@@ -1,0 +1,32 @@
+/* sign in and sign up css */
+
+.signInBackground{
+    background: #5084ec;
+    display: flex;
+    justify-content: center;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+
+.container{
+    flex: 1;
+    display: flex;
+}
+
+.signInUp fieldset{
+    float: left;
+    margin: 1vw 2vw 4vw 5vw;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    width: 25vw;
+    height: 40vw;
+    margin-left: 3vw;
+    border: 0;
+    
+    /* round edges */
+    border-radius: 2vw;
+}

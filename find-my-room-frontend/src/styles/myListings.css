@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+.listingContainer{
+    flex-direction: column;
+    background: #5084ec;
+    width: 45vw;
+    height: 40vw;
+    /* round edges */
+    border-radius: 2vw; 
+}
+
+.editContainer{
+    display: flex;
+    flex-direction: column;
+    background: #5084ec;
+    /* round edges */
+    border-radius: 2vw; 
+}
+
+.addContainer{
+    flex-direction: column;
+    background: #5084ec;
+    width: 45vw;
+    height: 41.5vw;
+    /* round edges */
+    border-radius: 2vw; 
+}
+
+.spaceBetween{
+    padding-right: 2vw;
+}
+
+.portalWelcome{
+    font-family: Montserrat;
+    font-size: 2vw;
+    font-weight: bold;
+    padding-bottom: 1vw;
+}
+.lContainer{
+    padding-right: 2vw;
+}
+
+.profileContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    background: dodgerblue;
+    width: 80vw;
+    height: 30vw;
+    /* round edges */
+    border-radius: 2vw; 
+}
+
+.listingTitle{
+    color: white;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 0.5vw;
+}
+
+.profileHeaders{
+    color: white;
+    font-family: Montserrat;
+    font-size: 1vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+}
+
+.profileBodyText{
+    color: white;
+    font-family: Montserrat;
+    font-size: 0.5vw;
+    padding-top: .25vw;
+    padding-bottom: 0.5vw;
+}
+
+.flexImages{
+    display: flex;
+    flex-wrap: wrap;
+    height: 30vw;
+    overflow-y: scroll;
+    
+    /* Css to get rid of scrollbar in diff browsers*/ 
+    -ms-overflow-style: none;
+    scrollbar-width: none;  
+}
+
+.wrapper{
+    padding-left: 1vw;
+}
+
+.favWrapper{
+    padding-bottom: 1vw;
+    padding-left: 3vw;
+}
+
+.trashButton{
+    padding-left: 16vw;
+}
+
+.edit{
+    width:1.5vw;
+    height:1.5vw;
+}
+.image{
+    width: 17vw;
+    height: 12vw;
+}
+.favoriteImage{
+    width: 15vw;
+    height: 10vw;
+    padding-left: 4vw;
+    padding-right: 1vw;
+}
+
+.deleteButton {
+    background-color: indianred;
+    font-family: Montserrat;
+    font-size: 1vw;
+    font-weight: bold;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+    width: 10vw;
+    margin-bottom: 1vw;
+}
+
+.submitButton{
+    background-color: #4CAF50;
+    font-family: Montserrat;
+    font-size: 1vw;
+    font-weight: bold;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+    width: 10vw;
+}
+
+.addSubmitButton{
+    background-color: #4CAF50;
+    font-family: Montserrat;
+    font-size: 1vw;
+    font-weight: bold;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+    width: 10vw;
+}
+
+.addListingButton{
+    padding-bottom: 3vw;
+    padding-top: 1vw;
+}

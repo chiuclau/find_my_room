@@ -1,0 +1,53 @@
+.filterBar{
+    display: flex;
+    background: #5084ec;
+    border-radius: 2vw;
+    height: 3vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.filterTitle{
+    font-family: Montserrat;
+    font-weight: bold;
+    color: white;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.button{
+    padding-right: 2vw;
+    padding-top: 0.7vw;
+    padding-bottom: 1vw;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    font-family: Montserrat;
+    font-size: 1vw;
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 3px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    float: center;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: white;
+    padding-right: 0.5vw;
+    padding-left: 0.5vw;
+    border-radius: 0.5vw;
+}
+
+.dropText{
+    font-family: Montserrat;
+    font-weight: 100;
+    color: black;
+}

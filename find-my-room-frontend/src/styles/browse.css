@@ -1,0 +1,35 @@
+.subleaseFlex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 2vw;
+    padding-left: 2vw;
+
+}
+.subleaseWrapper{
+    display: flex;
+    flex-direction: column;
+    padding-right: 1vw;
+    padding-left: 1vw;
+}
+.subleaseImage{
+    width: 25vw;
+    height: 17vw;
+}
+
+.infoWrapper{
+    display: flex;
+    flex-direction: row;
+}
+.rent{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+.rooms{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 2vw;
+    padding-left: 7vw;
+}

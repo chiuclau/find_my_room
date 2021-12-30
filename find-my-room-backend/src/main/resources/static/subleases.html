@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<script>
+	fetch("/api/allSubleases")
+		.then(res => res.json())
+		.then(json => json.forEach(sublease => {
+			console.log(sublease)
+			document.getElementById("images").innerHTML += sublease["address"] + "<br>"
+			/*for (let i of Object.values(sublease["images"])) {
+				document.getElementById("images").innerHTML += ('<img src="data:image/jpg;base64,'+i+'"><br><br>')
+			}*/
+			sublease["images"].forEach(image => document.getElementById("images").innerHTML += ('<img src="data:image/jpg;base64,'+image.src+'"><br><br>'))
+		}))
+	</script>
+	<title>Sublease Listings</title>
+</head>
+<body>
+	<h1>Subleases</h1>
+	<div id="images"></div>
+</body>
+</html>

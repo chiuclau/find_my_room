@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.title{
+    background: pink;
+    color: black;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: calc(10px + 2vmin);
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+}

@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+/* @import url(../resources/camera.png); */
+
+
+/* The navbar container */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Links - change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+
+
+.leftColumn{
+  width: 70%;
+}
+
+  /* Left column = manage listings comp*/
+  .column.listings {
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    justify-content: start;
+    background: #5084ec;
+    width: 58vw;
+    height: 60vw;
+    margin-left: 1.5vw;
+ 
+    /* round edges */
+    border-radius: 2vw; 
+  }
+  
+  /* Right column = add new listings comp*/
+  .column.newListing {
+    display: flex;
+    flex-direction: column;
+    background: #5084ec;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 3vw;
+    width: 40vw;
+    height: 35vw;
+    /* round edges */
+    border-radius: 2vw; 
+  }
+
+   .column{
+    width: 40vw;
+  }
+
+  .editWrap{
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+
+  .elEditListing {
+    display: flex;
+    flex-direction: column;
+    background: #5084ec;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    /* round edges */
+    border-radius: 2vw; 
+    width: 40vw;
+  }
+
+
+/* Features in various elements */
+.elListingTitle{
+    color: white;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 2vw;
+    padding-bottom: 0.5vw;
+    padding-top: 1vw;
+}
+.elFlexImages{
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    height: 35vw;
+    /* Css to get rid of scrollbar in diff browsers*/ 
+    -ms-overflow-style: none;
+    scrollbar-width: none;  
+}
+
+/*input  elements*/
+input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin-top: 2vw;
+    box-sizing: border-box; 
+    border-radius: 0px;
+}
+
+input[type=number] {
+    width: 80%;
+    padding: 12px 20px;
+    margin-top: 2vw;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.custom-image-upload {
+    background-color: lightgray;
+    background-image: url('../resources/camera.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+    height: 4vw;
+    width: 71%;
+}
+
+.editBottomWrap{
+  display: flex;
+  padding-top: 1vw;
+}
+
+textarea {
+    width: 80%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+.editSelect{
+    width: 80%;
+    padding: 12px 20px;
+    margin-top: 2vw;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.elEditClick {
+    background-color: #5084ec;;
+    background-image: url('../resources/edit.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding-left: 18vw;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+    width:0.5vw;
+    height:0.5vw;
+    
+}
+
+.addFile{
+  margin-bottom: 2vw;
+  margin-top: 3vw;
+}
+
+.file{
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+}
+
+.flexButtons{
+  display: flex;
+  flex-direction: column;
+  padding-left: 6vw;
+  margin-bottom: 2vw;
+}
+
+.addFlexButtons{
+  display: flex;
+  flex-direction: column;
+  padding-left: 35%;
+  margin-bottom: 3.7vw;
+}
+
+.elwrapper{
+    padding-left: 6vw;
+}
+.editWrapper{
+    padding-left: 1vw;
+}
+
+.eltrashButton{
+    padding-left: 14vw;
+}
+
+.eleditButton{
+    background-color: #5084ec;;
+    background-image: url('../resources/edit.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding-left: 18vw;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+    width:1.5vw;
+    height:1.5vw;
+}
+.elEdit{
+    padding-left: 18vw;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+    width:1.5vw;
+    height:1.5vw;
+} 
+.elDisplayImage{
+    width: 20vw;
+    height: 20vw;
+}
+
+.elEditImage{
+    width: 20vw;
+    height: 15vw;
+}
+
+elBody {
+    font-family: ‘Segoe UI’;
+    font-size: 12pt;
+  }
+  
+elHeaderH1 {
+    font-size: 12pt;
+    color: #fff;
+    background-color: #1BA1E2;
+    padding: 20px;
+  }
+  
+elArticle {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  
+.elThumbnail {
+    height: 100px;
+    margin: 10px;
+  }
